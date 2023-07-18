@@ -1,0 +1,61 @@
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: url('../img/ribbon1.svg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    max-width: 50%; 
+    gap: 5em;
+}
+
+.nav .logo,
+.nav .timer,
+.nav .ticket-button {
+    color: #080000; 
+    z-index: 1; 
+}
+
+.nav .logo{
+    font-size: 2vw;
+    color: white;
+}
+.nav .timer {
+    font-size: 1vw;
+    color: white;
+}
+.nav .ticket-button{
+    font-size: 1vw;
+}
+
+
+/* CSS media query */
+@media screen and (max-width: 800px) {
+    .nav {
+        height: 10vh; 
+    }
+    .nav .logo{
+        font-size: 3vw; /* decrease font size */
+    }
+    .nav .timer {
+        font-size: 1.5vw; /* decrease font size */
+    }
+    .nav .ticket-button{
+        font-size: 1.5vw; /* decrease font size */
+    }
+    .nav-content {
+        gap: 2em; /* This is the gap size for screens smaller or equal to 800px */
+    }
+}

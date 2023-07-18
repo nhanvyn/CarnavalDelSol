@@ -1,0 +1,9 @@
+.drip{
+    background: url('../img/drip.svg'); 
+    background-position: center;
+    background-repeat: no-repeat; /* Add this to prevent the image from repeating */
+    background-size: cover; /* Change this from cover to contain */
+    width: 100%;
+    height: 200vh;
+}
+

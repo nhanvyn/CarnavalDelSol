@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(194, 69, 19);
+}
+  
+.main-container {
+    position: relative;
+    max-width: 53rem;
+    margin: 2rem auto;
+    background-color: rgb(231, 138, 16);
+}
+  
