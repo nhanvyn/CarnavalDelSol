@@ -22,7 +22,7 @@
     width: 100vw;  /* <-- increase this */
     height: 100vw;  /* <-- increase this */
     transform: translate(-50%, -50%);
-    
+    /* animation: spin 120s linear infinite; */
 }
 
 .flag {
@@ -31,7 +31,10 @@
     left: 50%;
     width: 6vw;  /* <-- decrease this */
     height: 6vw;  /* <-- decrease this */
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
+    /* animation: spin 120s linear infinite;  */
+
+
 }
 .flag:nth-child(1) { transform: translate(-50%, -50%) rotate(0deg) translate(320%) rotate(0deg); }
 .flag:nth-child(2) { transform: translate(-50%, -50%) rotate(36deg) translate(320%) rotate(-36deg); }
