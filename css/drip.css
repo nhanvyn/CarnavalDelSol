@@ -1,91 +1,135 @@
-.drip{
-    background: url('../img/drip.svg'); 
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+
+.festname-section {
     width: 100%;
-    height: 200vh;
+}
+
+.festname-img {
+    display: block; 
+    width: 100%;
+    height: auto; 
+}
+
+.sun-section {
     position: relative;
+    width: 100%; 
+    height: 100%;
+}
+.drip-img{
+    position: absolute; 
+    
+    left: 0;
+    width: 100%; 
+    height: auto; 
 }
 
-.drip .sun {
+.sun-section .sun {
     position: absolute;
-    top: 50%;  
-    left: 50%;  
-    width: 70%;  
-    animation: spin 120s linear infinite;
+    top: 19%;  
+    left: 17%;  
+    width: 65%;  
+    height: auto;
 }
-
-
 
 .wheel{
-    border: 1px solid black;
-    position: relative;
+    /* border: 0.1px dotted black; */
+    position: absolute;
     top: 5%;
-    left: 20%;
+    left: 13%;
     border-radius: 50%;
-    
-    width: 60%;
-    height: 35%;
-    animation-name: wheel;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    width: 75%;
+    padding-bottom: 75%;
 }
-
 
 .flag1{
     position: absolute;
     width: 15%;
     height: 15%;
-    left: 10%;
-    top: 5%;
-    animation: flag 40s linear infinite;
+    left: 28%;
+    top: -1%;
 
 }
-
 
 .flag2{
     position: absolute;
     width: 15%;
     height: 15%;
-    left: 44%;
-    top: -6%;
-    animation: flag 40s linear infinite;
-
+    left: 55%;
+    top: -1%;
 }
-
-
 
 .flag3{
     position: absolute;
     width: 15%;
     height: 15%;
-    left: 74%;
+    left: 80%;
+    top: 14%;
+}
+
+.flag4{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 90%;
+    top: 35%;
+}
+
+.flag5{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left: 87%;
+    top: 68%;
+}
+
+.flag6{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left: 55%;
     top: 80%;
-    animation: flag 40s linear infinite;
+}
 
+.flag7{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left: 28%;
+    top: 80%;
+}
+
+.flag8{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left:0%;
+    top: 68%;
+}
+
+.flag9{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: -9%;
+    top: 35%;
+}
+
+.flag10{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left: 3%;
+    top: 14%;
 }
 
 
-@keyframes wheel {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.wheel img {
+    transition: transform 0.3s ease; 
 }
 
-
-@keyframes flag{
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(-360deg);
-    }
+.wheel img:not(.sun):hover {
+    transform: scale(1.5); 
 }
+
 
 @keyframes spin {
     0% { transform: translate(-50%, -50%) rotate(0deg); }

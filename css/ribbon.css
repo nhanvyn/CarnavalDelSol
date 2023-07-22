@@ -3,13 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    background: url('../img/ribbon1.svg'); 
+    background: url('../img/ribbon2.svg'); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0;    
     list-style-type: none;
 }
 
@@ -18,35 +18,35 @@
     justify-content: space-around; 
     align-items: center;
     max-width: 50%; 
-    gap: 5em;
+    gap: 9em;
 }
 
 .nav .logo,
 .nav .timer,
 .nav .ticket-button {
-    color: #080000; 
+    color: #713B3B; 
     z-index: 1; 
 }
 
 .nav .logo{
-    font-size: 2vw;
+    font-size: 2.5rem;
     color: white;
+    padding-top: 1.5rem;
     
 }
 .nav .timer {
-    font-size: 1vw;
+    font-size: 1.5rem;
     color: white;
 }
 .nav .ticket-button{
-    font-size: 1vw;
+    display: flex;    
+    white-space: nowrap;
+    font-size: 1rem;
 }
 
 
 /* CSS media query */
 @media screen and (max-width: 800px) {
-    .nav {
-        height: 10vh; 
-    }
     .nav .logo{
         font-size: 3vw; /* decrease font size */
     }
