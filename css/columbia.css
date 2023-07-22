@@ -1,0 +1,23 @@
+.truck-section {
+    width: 100%;
+    padding-bottom: 30%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+.truck-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: -90%; 
+    animation: moveRight 1.2s ease-in-out forwards;
+}
+@keyframes moveRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(90%); /* Changed to 0 so the truck will stop at the end of its container */
+    }
+}
