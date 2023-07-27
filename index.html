@@ -7,7 +7,28 @@
     <link href="css/ribbon.css" rel="stylesheet">       <!-- style for navigation bar -->
     <link href="css/drip.css" rel="stylesheet">         <!-- style for drip background -->
     <link href="css/global-style.css" rel="stylesheet"> <!-- style that we use for everything --> 
+    <script>
+        window.onload = function() {
+            function checkScreenSize() {
+                const imgDrip = document.querySelector('.drip-img');
+                const imgSun = document.querySelector('.sun');
+                const imgFestname = document.querySelector('.festname-img');
+                // img\festname-mobile.svg
+                if(window.innerWidth <= 800) {
+                    imgDrip.src = "img/drip5-mobile.svg";
+                    imgSun.src = "img/sun1-mobile.svg"
+                    imgFestname.src="img/festname-mobile.svg"
+                } else {
+                    imgDrip.src = "img/drip5.svg";
+                    imgSun.src = "img/sun1.svg"
+                    imgFestname.src= "img/festname.svg"
+                }
+            }
 
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+        }
+    </script>
 </head> 
 <body>
     <div class="main-container">
@@ -16,10 +37,12 @@
             <div class="nav-content"> 
                 <h1 class="logo">Carnaval De Sol</h1>
     
-                <li class="timer" id="timer">
-                    00:00:00
-                </li>
-    
+                <section class="timer" id="timer">
+                   <div class="timer-i tday">00</div>
+                   <div class="timer-i thour">00</div>
+                   <div class="timer-i tmin">00</div>
+                   <div class="timer-i tsec">00</div>
+                </section>
                 <li>
                     <button class="ticket-button">Get Ticket! ▶</button>
                 </li>
@@ -57,7 +80,6 @@
     </div>
 </body>
 </html>
-
 
 
 

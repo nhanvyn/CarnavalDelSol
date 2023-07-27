@@ -13,6 +13,23 @@
     left: -90%; 
     animation: moveRight 1.2s ease-in-out forwards;
 }
+
+
+.video-section{
+    margin-top: 10%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(99, 84, 84);
+    /* overflow: hidden;  */
+}
+
+#video1{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    transition: opacity 0.5s ease; 
+}
+
 @keyframes moveRight {
     from {
         transform: translateX(-100%);

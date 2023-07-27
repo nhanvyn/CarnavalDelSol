@@ -9,6 +9,21 @@
     <link href="css/drip.css" rel="stylesheet">         <!-- style for drip background -->
     <link href="css/global-style.css" rel="stylesheet"> <!-- style that we use for everything --> 
     <link href="css/columbia.css" rel="stylesheet"> 
+    <script>
+        window.onload = function(){
+            var vid = document.getElementById("video1");
+        
+            vid.onmouseover = function() {
+                this.play();
+                this.style.opacity = "1";
+            }
+        
+            vid.onmouseout = function() {
+                this.pause();
+                this.style.opacity = "0.5";
+            }
+        };
+    </script>
 </head> 
 <body>
     <div class="main-container">
@@ -17,10 +32,12 @@
             <div class="nav-content"> 
                 <h1 class="logo">Carnaval De Sol</h1>
     
-                <li class="timer" id="timer">
-                    00:00:00
-                </li>
-    
+                <section class="timer" id="timer">
+                   <div class="timer-i tday">00</div>
+                   <div class="timer-i thour">00</div>
+                   <div class="timer-i tmin">00</div>
+                   <div class="timer-i tsec">00</div>
+                </section>
                 <li>
                     <button class="ticket-button">Get Ticket! ▶</button>
                 </li>
@@ -32,14 +49,14 @@
         <div class="truck-section">
             <img src="img/columbia_truck.svg" class="truck-img">
         </div>
-        <div class="sun-section">
-            <img src="img/drip5.svg" alt="Drip" class="drip-img">
-            <div class="wheel">
-                <img src="img/sun1.svg" alt="Sun" class="sun">
-              
-            </div>
-     
+
+        <div class="video-section">
+            <video id="video1" loop muted>
+                <source src="video/vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>              
         </div>
+        
         <!-- end of drip background -->
         
         </div>

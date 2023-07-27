@@ -1,4 +1,3 @@
-
 .nav {
     display: flex;
     align-items: center;
@@ -10,7 +9,7 @@
     width: 100%;
     padding: 0;
     margin: 0;    
-    list-style-type: none;
+    list-style: none;
 }
 
 .nav-content {
@@ -18,14 +17,13 @@
     justify-content: space-around; 
     align-items: center;
     max-width: 50%; 
-    gap: 9em;
+    gap: 6em;
 }
 
 .nav .logo,
 .nav .timer,
 .nav .ticket-button {
     color: #713B3B; 
-    z-index: 1; 
 }
 
 .nav .logo{
@@ -34,16 +32,49 @@
     padding-top: 1.5rem;
     
 }
-.nav .timer {
-    font-size: 1.5rem;
-    color: white;
-}
+/*  */
 .nav .ticket-button{
     display: flex;    
     white-space: nowrap;
     font-size: 1rem;
 }
+.timer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    column-gap: 0.5rem;
+}
 
+.timer-i{
+    color: #713c3c;
+}
+
+.tday{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
+
+.thour{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
+
+.tmin{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
+
+.tsec{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
 
 /* CSS media query */
 @media screen and (max-width: 800px) {
