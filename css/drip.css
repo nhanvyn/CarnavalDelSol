@@ -3,22 +3,37 @@
 }
 
 .festname-img {
-    display: block; 
     width: 100%;
     height: auto; 
+    display: block;
+}
+
+.dont-miss-out-section{
+    position: relative;
+    /* position: relative;
+    top: 80%;
+    left: 4%;
+    border-radius: 50%;
+    width: 90%;
+    padding-bottom: 90%; */
+}
+
+.dont-miss-out-img{
+    display: block;
+    width: 100%;
 }
 
 .sun-section {
     position: relative;
     width: 100%; 
-    height: 100%;
+    /* padding-bottom: 125%; */
 }
 .drip-img{
-    position: absolute; 
-    
+    position: relative; 
+    display: block;
     left: 0;
     width: 100%; 
-    height: auto; 
+    height: 100%; 
 }
 
 .sun-section .sun {
@@ -128,284 +143,139 @@
 .wheel img:not(.sun):hover {
     transform: scale(1.5); 
 }
-
-
-.festname-section {
-    width: 100%;
-}
-
-.festname-img {
-    display: block; 
-    width: 100%;
-    height: auto; 
-}
-
-.sun-section {
-    position: relative;
-    width: 100%; 
-    height: 100%;
-}
-.drip-img{
-    position: absolute; 
-    
-    left: 0;
-    width: 100%; 
-    height: auto; 
-}
-
-.sun-section .sun {
-    position: absolute;
-    top: 19%;  
-    left: 17%;  
-    width: 65%;  
-    height: auto;
-}
-
-.wheel{
-    /* border: 0.1px dotted black; */
-    position: absolute;
-    top: 5%;
-    left: 13%;
-    border-radius: 50%;
-    width: 75%;
-    padding-bottom: 75%;
-}
-
-.flag1{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left: 28%;
-    top: -1%;
-
-}
-
-.flag2{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left: 55%;
-    top: -1%;
-}
-
-.flag3{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left: 80%;
-    top: 14%;
-}
-
-.flag4{
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 90%;
-    top: 35%;
-}
-
-.flag5{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left: 87%;
-    top: 68%;
-}
-
-.flag6{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left: 55%;
-    top: 80%;
-}
-
-.flag7{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left: 28%;
-    top: 80%;
-}
-
-.flag8{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left:0%;
-    top: 68%;
-}
-
-.flag9{
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: -9%;
-    top: 35%;
-}
-
-.flag10{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    left: 3%;
-    top: 14%;
-}
-
-
-.wheel img {
-    transition: transform 0.3s ease; 
-}
-
-.wheel img:not(.sun):hover {
-    transform: scale(1.5); 
-}
-
-
-
-
 @media screen and (max-width: 800px) {
-.festname-section {
-    width: 100%;
-    margin-top: 4%;
-}
-.sun-section {
-    position: relative;
-    width: 100%; 
-    height: 100%;
-    overflow: hidden;
-}
-.sun-section .sun {
-    position: absolute;
-    top: 7%;  
-    left: 15%;  
-    width: 90%;  
-    height: auto;
-}
-/* .sun-section .sun {
-    position: absolute;
-    top: 0%;  
-    left: 21%;  
-    width: 170%;  
-    height: auto;
-} */
-
-
-.wheel{
-    /* border: 0.1px dotted black; */
-    position: absolute;
-    top: 5%;
-    left: 14%;
-    border-radius: 50%;
-    width: 130%;
-    padding-bottom: 130%;
-    /* background-color: rgb(87, 20, 20); */
-}
-
-
-/*brazil*/
-.flag1{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 32%;
-    top: -6%;
-    /* visibility:hidden; */
-
-}
-/*next to brazil*/
-.flag2{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 50%;
-    top: -10%;
-    /* visibility:hidden; */
-}
-
-/*jamaica*/
-.flag3{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 14%;
-    top: 5%;
-    /* visibility:hidden; */
-}
-/*jamaica*/
-
-/*next to jamaica: ecuador*/
-.flag4{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 3%;
-    top: 17%;
-    /* visibility:hidden; */
-
-}
-
-/*next: red flag with middle white */
-.flag5{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: -3%;
-    top: 33%;
-    /* visibility:hidden; */
-
-}
-/*flag that looks like argentina*/
-.flag6{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: -1%;
-    top: 50%;
-    /* visibility:hidden; */
-
-}
-/*chile*/
-.flag7{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 3%;
-    top: 66%;
-    /* visibility:hidden; */
-
-}
-/*mexico*/
-.flag8{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left:15%;
-    top: 79%;
-
-    /* visibility:hidden; */
-
-}
-
-/*yellow blue red flag with no logo*/
-.flag9{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 33%;
-    top: 86%;
-    /* visibility:hidden; */
-
-}
-
-/*spain*/
-.flag10{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 50%;
-    top: 95%;
-    /* visibility:hidden; */
-}
-
-}
+    .festname-section {
+        width: 100%;
+    }
+    .sun-section {
+        position: relative;
+        width: 100%; 
+        height: 100%;
+        overflow: hidden;
+    }
+    .sun-section .sun {
+        position: absolute;
+        top: 7%;  
+        left: 15%;  
+        width: 90%;  
+        height: auto;
+    }
+    
+    .wheel{
+        /* border: 0.1px dotted black; */
+        position: absolute;
+        top: 5%;
+        left: 14%;
+        border-radius: 50%;
+        width: 130%;
+        padding-bottom: 130%;
+        /* background-color: rgb(87, 20, 20); */
+    }
+    
+    
+    /*brazil*/
+    .flag1{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 32%;
+        top: -6%;
+        /* visibility:hidden; */
+    
+    }
+    /*next to brazil*/
+    .flag2{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 50%;
+        top: -10%;
+        /* visibility:hidden; */
+    }
+    
+    /*jamaica*/
+    .flag3{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 14%;
+        top: 5%;
+        /* visibility:hidden; */
+    }
+    /*jamaica*/
+    
+    /*next to jamaica: ecuador*/
+    .flag4{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 3%;
+        top: 17%;
+        /* visibility:hidden; */
+    
+    }
+    
+    /*next: red flag with middle white */
+    .flag5{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: -3%;
+        top: 33%;
+        /* visibility:hidden; */
+    
+    }
+    /*flag that looks like argentina*/
+    .flag6{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: -1%;
+        top: 50%;
+        /* visibility:hidden; */
+    
+    }
+    /*chile*/
+    .flag7{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 3%;
+        top: 66%;
+        /* visibility:hidden; */
+    
+    }
+    /*mexico*/
+    .flag8{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left:15%;
+        top: 79%;
+    
+        /* visibility:hidden; */
+    
+    }
+    
+    /*yellow blue red flag with no logo*/
+    .flag9{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 33%;
+        top: 86%;
+        /* visibility:hidden; */
+    
+    }
+    
+    /*spain*/
+    .flag10{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 50%;
+        top: 95%;
+        /* visibility:hidden; */
+    }
+    
+    }
