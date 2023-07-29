@@ -8,20 +8,21 @@
     <link href="css/drip.css" rel="stylesheet">         <!-- style for drip background -->
     <link href="css/global-style.css" rel="stylesheet"> <!-- style that we use for everything -->
     <link href="css/plaza.css" rel="stylesheet"> 
+    <link href="css/footer.css" rel="stylesheet"> 
+
     <script>
         window.onload = function() {
             function checkScreenSize() {
                 const imgDrip = document.querySelector('.drip-img');
                 const imgSun = document.querySelector('.sun');
                 const imgFestname = document.querySelector('.festname-img');
-                // img\festname-mobile.svg
-                if(window.innerWidth <= 800) {
+                if(window.innerWidth <= 850) {
                     imgDrip.src = "img/drip5-mobile.svg";
                     imgSun.src = "img/sun1-mobile.svg"
-                    imgFestname.src="img/festname-mobile.svg"
+                    imgFestname.src="img/festname.svg"
                 } else {
-                    imgDrip.src = "img/drip5.svg";
-                    imgSun.src = "img/sun1.svg"
+                    imgDrip.src = "img/drip5-desktop.svg";
+                    imgSun.src = "img/new-sun.svg"
                     imgFestname.src= "img/festname.svg"
                 }
             }
@@ -55,9 +56,9 @@
             <img src="img/festname.svg" class="festname-img">
         </div>
         <div class="sun-section">
-            <img src="img/drip5.svg" alt="Drip" class="drip-img">
+            <img src="img/drip5-desktop.svg" alt="Drip" class="drip-img">
             <div class="wheel">
-                <img src="img/sun1.svg" alt="Sun" class="sun">
+                <img src="img/new-sun.svg" alt="Sun" class="sun">
                 <a href="columbia.html">
                     <img src="flags/Brazil.svg" class="flag1">
                 </a>
@@ -77,10 +78,78 @@
         <div class="dont-miss-out-section">
             <img src="img/dont_miss_out.svg" class="dont-miss-out-img">
         </div>
-        
- 
-        
 
+        <div class="food-plaza">
+            <img src="img/paper-bg.svg" class="paper-bg">
+            <div class="plaza-content">
+               <div class="cloth cloth1">
+                <img src="img/burrito.svg" class="burrito-img">
+                <img src="img/chili.svg" class="chili-img">
+                <div class="sewing-bt bt-small">FOOD PLAZA</div>
+                <p>Colombian food is a unique blend of indigenous and European traditions with a strong Afro-Caribbean influence. The two largest indigenous groups prior to European conquest were the Tairona</p>
+                <div class="nav-bt to-vendors">View All Vendors</div>
+            </div>
+            <div class="cloth cloth2">
+                <img src="img/burrito.svg" class="cooking-img">
+                <div class="sewing-bt bt-large">CULINARY EXPERIENCE PLAZA</div>
+                <p>Colombian food is a unique blend of indigenous and European traditions with a strong Afro-Caribbean influence. The two largest indigenous groups prior to European conquest were the Tairona, who lived along the Caribbean coast, and the Muisca, </p>
+                <div class="nav-bt to-learn-more">Learn more</div>  
+            </div>
+            
+            <div class="main-get-ticket">
+                Get Ticket!
+            </div>
+            </div>
+           
+        </div>
+        
+        <div class="end-drip">
+            <img src="img/end-drip.svg" class="end-drip-img">
+        </div>
+
+        
+        <footer>
+            <div class="link-container">
+                <img src="img/ft-logo.svg" class="ft-logo">
+                <div class="link-section">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Mockup</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Citation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-section">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Mockup</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Citation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <img src="img/insta.svg" class="insta">
+                    <img src="img/fb.svg" class="fb">
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Latincouver.ca. All rights reserved.</p>
+            </div>
+        </footer>
         
         </div>
     </div>

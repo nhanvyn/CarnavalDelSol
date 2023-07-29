@@ -23,6 +23,16 @@
     width: 100%;
 }
 
+.end-drip{
+    position: relative;
+
+}
+.end-drip-img{
+    display: block;
+    width: 100%;
+}
+
+
 .sun-section {
     position: relative;
     width: 100%; 
