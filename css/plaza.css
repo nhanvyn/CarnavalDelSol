@@ -57,10 +57,10 @@
     position: relative;
     width: 65%;
     height: 34%;
-    /* height: auto; */
+ 
     background-image: url("../img/plaza-bg.svg");
     border-radius: 1rem;
-    /* overflow: hidden; */
+    
 }
 .cloth::before,
 .cloth::after {
@@ -103,7 +103,7 @@
     width: 40%;
     left: 40%;
     top: 35%;
-    font-size: 1.1vw;
+    font-size: 1em;
 
 }
 .sewing-bt{
@@ -132,7 +132,7 @@
     height: 15%;
     left: 10%;
     top: 15%;
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 .cloth2 p{
@@ -141,7 +141,7 @@
     width: 60%;
     left: 12%;
     top: 35%;
-    font-size: 1.1vw;
+    font-size: 1em;
 
 }
 
@@ -161,7 +161,7 @@
     height: 10%;
     left: 45%;
     top: 75%;
-    font-size: 1.2vw;
+    font-size: 1.2em;
 }
 
 .to-learn-more{
@@ -169,7 +169,7 @@
     height: 10%;
     left: 29%;
     top: 75%;
-    font-size: 1.2vw;
+    font-size: 1.2em;
 }
 .main-get-ticket{
     background-color: #713B3B;
@@ -183,7 +183,7 @@
     width: 25%;
     height: 7%;
     position: relative;
-    font-size: 2vw;
+    font-size: 2em;
     padding: 0 4%;
     cursor: pointer;
 }
@@ -232,6 +232,22 @@
 }
 .to-vendors{
     font-size: 5%;
+}
+
+.bt-large{
+    font-size: 50%;
+}
+
+.cloth2 p{
+    font-size: 10%;
+}
+.to-learn-more{
+    font-size: 5%;
+}
+
+
+.main-get-ticket{
+    font-size: 75%;
 }
 
 }

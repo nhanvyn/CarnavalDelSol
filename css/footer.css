@@ -67,3 +67,11 @@
 .copyright p{
     color: white;
 }
+
+
+
+@media (max-width: 800px) {
+    footer h3, footer p, footer a {
+        font-size: 50%;
+    }
+}
