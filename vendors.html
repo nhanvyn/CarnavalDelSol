@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnaval De Sol</title>
+    <link href="css/ribbon.css" rel="stylesheet">       <!-- style for navigation bar -->
+    <link href="css/drip.css" rel="stylesheet">         <!-- style for drip background -->
+    <link href="css/global-style.css" rel="stylesheet"> <!-- style that we use for everything -->
+    <link href="css/plaza.css" rel="stylesheet"> 
+    <link href="css/footer.css" rel="stylesheet"> 
+    <link href="css/vendors.css" rel="stylesheet"> 
+    <script>
+        window.onload = function() {
+            function checkScreenSize() {
+                const imgVendorsBg = document.querySelector('.vendor-bg')
+                if(window.innerWidth <= 800) {
+                    imgVendorsBg.src="img/allvendors-bg-mobile.svg"
+
+                } else {       
+                    imgVendorsBg.src="img/allvendors-bg.svg"
+
+                }
+            }
+
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+        }
+    </script>
+</head> 
+<body>
+    <div class="main-container">
+        <!-- Here is the navigation bar -->
+        <ul class="nav">
+            <div class="nav-content"> 
+                <h1 class="logo">Carnaval De Sol</h1>
+    
+                <section class="timer" id="timer">
+                   <div class="timer-i tday">00</div>
+                   <div class="timer-i thour">00</div>
+                   <div class="timer-i tmin">00</div>
+                   <div class="timer-i tsec">00</div>
+                </section>
+                <li>
+                    <button class="ticket-button">Get Ticket! ▶</button>
+                </li>
+            </div>
+        </ul>
+
+        <div class="vendor-section">
+            <img src="img/allvendors-bg.svg" class="vendor-bg">
+            
+          <div class="vendor-container">
+                
+            <div class="top">
+                <h1>All Vendors</h1>
+                <div class="filter-container">
+                    <select id="countryFilter" name="countryFilter">
+                        <option value="">Filter by Country</option>
+                        <option value="Brazil">Filter by [category]</option>
+                        <!-- Add more countries as needed -->
+                    </select>
+                    <select id="sortFilter" name="sortFilter">
+                        <option value="">Sort</option>
+                        <option value="A-Z">A-Z</option>
+                        <option value="Z-A">Z-A</option>
+                        <!-- Add more sort options as needed -->
+                    </select>
+                </div>
+            </div>
+                <div class="vendor-list">
+
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+                    
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+
+
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+                    <div class="vendor">
+                        <div class="vendor-logo">
+                            <img src="img/vendor-logo1.svg" class="logo-img">
+                            
+                        <div class="vendor-social">
+                                <img src="img/insta.svg" class="vendor-insta">
+                                <img src="img/fb.svg" class="vendor-fb">
+                        </div>
+                            
+                        </div>
+
+                        <div class="details">
+                            <div class="title-and-icons">
+                                <h1>Whatafood</h1>
+                            </div>
+                            <h3 class="subtitle">
+                                Brazil
+                            </h3>
+                            <p class="brief">
+                                Whatafood, authentic Brazilian Street Food, nice range of products and choices to costumers.
+                            </p>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img src="img/vendor-img1.svg" class="vendor-img">
+                        </div>
+                    
+                    </div>
+
+
+                </div>
+          </div>
+           
+        </div>
+        
+        <div class="end-drip">
+            <img src="img/end-drip.svg" class="end-drip-img">
+        </div>
+
+        
+        <footer>
+            <div class="link-container">
+                <img src="img/ft-logo.svg" class="ft-logo">
+                <div class="link-section">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Mockup</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Citation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-section">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Mockup</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Citation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <img src="img/insta.svg" class="insta">
+                    <img src="img/fb.svg" class="fb">
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Latincouver.ca. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
