@@ -1,13 +1,18 @@
+.truck-page-container{
+    background: url('../img/truck-bg.svg'); 
+    background-size: cover;
+}
+  
 .truck-section {
     width: 100%;
-    padding-bottom: 30%;
+    /* padding-bottom: 30%; */
     position: relative;
-    overflow: hidden;
-    padding-top: 10%;
+    /* overflow: hidden; */
+    /* padding-top: 10%; */
 }
 
 .truck-img {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
     left: -90%; 
@@ -16,11 +21,10 @@
 
 
 .video-section{
-    margin-top: 10%;
     width: 100%;
     position: relative;
     background-color: rgb(99, 84, 84);
-    /* overflow: hidden;  */
+    overflow: hidden; 
 }
 
 #video1{

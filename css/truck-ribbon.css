@@ -1,0 +1,124 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: url('../img/ribbon-brown.svg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;    
+    list-style: none;
+}
+
+
+
+.nav-content {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    max-width: 50%; 
+    gap: 6em;
+}
+
+.nav .logo,
+.nav .timer,
+.nav .ticket-button {
+    color: #713B3B; 
+}
+
+.nav .logo{
+    font-size: 2.5rem;
+    color: white;
+    
+    margin-top: 8%;
+    
+}
+/*  */
+.nav .ticket-button{
+    display: flex;    
+    white-space: nowrap;
+    font-size: 1rem;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    column-gap: 0.5rem;
+}
+
+.timer-i{
+    color: #713c3c;
+}
+
+.tday{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
+
+.thour{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
+
+.tmin{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
+
+.tsec{
+    background: #F2DACC;
+    padding: 0.5rem;
+    border-radius: 0.35em;
+}
+
+/* CSS media query */
+@media screen and (max-width: 800px) {
+    .nav .logo{
+        font-size: 3vw; /* decrease font size */
+    }
+    .nav .timer {
+        font-size: 1.5vw; /* decrease font size */
+    }
+    .nav .ticket-button{
+        font-size: 1.5vw; /* decrease font size */
+    }
+    .nav-content {
+        gap: 2em; /* This is the gap size for screens smaller or equal to 800px */
+    }
+
+    .timer{
+        
+        column-gap: 0.2rem;
+    }
+    .tday{
+        background: #F2DACC;
+        padding: 0.3rem;
+        border-radius: 0.35em;
+    }
+
+    .thour{
+        background: #F2DACC;
+        padding: 0.3rem;
+        border-radius: 0.35em;
+    }
+
+    .tmin{
+        background: #F2DACC;
+        padding: 0.3rem;
+        border-radius: 0.35em;
+    }
+
+    .tsec{
+        background: #F2DACC;
+        padding: 0.3rem;
+        border-radius: 0.35em;
+    }
+}
