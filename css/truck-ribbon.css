@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    background: url('../img/ribbon-brown.svg'); 
+    background: url('../img/ribbon-brown.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -29,9 +29,9 @@
 }
 
 .nav .logo{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
-    
+    font-family: 'megastaschoolregular', sans-serif;
     margin-top: 8%;
     
 }
@@ -40,6 +40,15 @@
     display: flex;    
     white-space: nowrap;
     font-size: 1rem;
+    background-color: #E04592;
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-color: #E04592;
+    border-style: solid;
+    padding-left: 10%;
+    padding-right: 15%;
 }
 .timer{
     display: flex;
@@ -49,6 +58,7 @@
     align-items: center;
     align-content: center;
     column-gap: 0.5rem;
+    font-family: 'recoletaschool_mediummedium', sans-serif;
 }
 
 .timer-i{
@@ -77,6 +87,11 @@
     background: #F2DACC;
     padding: 0.5rem;
     border-radius: 0.35em;
+}
+
+
+.ticket-button{
+    font-family: 'recoletaschoolregular', serif;
 }
 
 /* CSS media query */

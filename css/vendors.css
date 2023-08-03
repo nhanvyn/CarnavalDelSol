@@ -1,3 +1,14 @@
+h1 {
+    font-family: 'recoletaschool_semiboldSBd', serif;
+}
+
+h2 {
+    font-family: 'recoletaschool_mediummedium', serif;
+}
+
+small {
+    font-family: 'recoletaschoolregular', serif;
+}
 
 .vendor-section {
     position: relative;
@@ -108,8 +119,10 @@
     font-size: 1em; 
     border-radius: 0.5em; 
     border: none; 
-    background-color: #F2F2F2;
+    background-color: #E04593;
     color: #333; 
+    font-family: 'recoletaschoolregular', serif;
+    color: #fff;
 }
 
 #countryFilter{

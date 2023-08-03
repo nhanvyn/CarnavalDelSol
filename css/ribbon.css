@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    background: url('../img/ribbon2.svg'); 
+    background: url('../img/ribbon3.svg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -91,7 +91,7 @@
 
 
 .ticket-button{
-    font-family: 'recoletaschool_mediummedium', sans-serif;
+    font-family: 'recoletaschoolregular', serif;
 }
 
 /* CSS media query */

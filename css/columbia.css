@@ -1,6 +1,24 @@
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+    /* font-weight: 500; */
+    /* font-size: 1rem; */
+}
+
+h1 {
+    font-family: 'recoletaschool_semiboldSBd', serif;
+}
+
+h2 {
+    font-family: 'recoletaschool_mediummedium', serif;
+}
+
+small {
+    font-family: 'recoletaschoolregular', serif;
+}
+
 .truck-page-container{
+    background-color: #A87249;
     position: relative;
-    background: url('../img/truck-bg.svg'); 
     background-size: cover;
     width: 100%;
 
@@ -207,7 +225,7 @@
 
 .explore-bt{
     /* background-color: rgba(168, 109, 63, 0.7); */
-    background-color: #713C3C;
+    background-color: #E04593;
     border: none;
     padding: 2%;
     color: white;
@@ -215,6 +233,7 @@
     font-family: inherit;
     font-size: 1.5rem;
     cursor: pointer;
+    font-family: 'recoletaschoolregular', serif;
 }
 
 .food-link-container{

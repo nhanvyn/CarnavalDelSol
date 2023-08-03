@@ -91,7 +91,7 @@ p{
 
 }
 .culinary-flex-ctn p{
-    margin-left: 18%;
+    margin-left: 12%;
 }
 
 
@@ -202,18 +202,18 @@ p{
 
 
 .to-vendors{
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 3%;
     margin-bottom: 25%;
 }
 
 .to-learn-more{
-    margin-left: 17%;
-    font-size: 1.2em;
+    margin-left: 12%;
+    font-size: 1em;
     padding: 2%;
 }
 .main-get-ticket{
-    background-color: #713B3B;
+    background-color: #E04592;
     border-radius: 1.5rem;
     color: white;
     width: 25%;
@@ -240,12 +240,12 @@ p{
 }
 
 .main-get-ticket::before {
-    left: 4%;
+    left: 0%;
     background-image: url('../img/left-fire.svg');
 }
 
 .main-get-ticket::after {
-    right: 4%;
+    right: 0%;
     background-image: url('../img/right-fire.svg');
 }
 
