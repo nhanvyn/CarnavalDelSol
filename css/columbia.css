@@ -23,15 +23,19 @@
 .video-section{
     width: 100%;
     position: relative;
+    padding-bottom: -20%;
     background-color: rgb(99, 84, 84);
     overflow: hidden; 
+    
 }
 
 #video1{
     width: 100%;
-    height: auto;
+    height: 10%;
     opacity: 0.5;
-    transition: opacity 0.5s ease; 
+    transition: opacity 0.5s ease;
+    display: block;
+
 }
 
 @keyframes moveRight {
@@ -41,4 +45,249 @@
     to {
         transform: translateX(90%); /* Changed to 0 so the truck will stop at the end of its container */
     }
+}
+
+.mid-drip{
+    position: relative;
+    
+}
+
+.mid-drip-img{
+    width: 100%;
+    display: block;
+}
+
+.under-video{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.intro{
+   
+}
+
+.intro h1{
+    color: white;
+    font-size: 5rem;
+    padding: 0;
+    margin-bottom: 0;
+}
+.intro p{
+    color: white;
+    margin-left: 20%;
+    font-size: 1rem;
+    padding-bottom: 10%;
+}
+
+.leaf-left-container{
+    position: relative;
+}
+.leaf{
+  width: 50%;
+  padding-bottom: 10%;
+}
+.leaf-left{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.leaf-right-container{
+    position: relative;
+}
+.leaf-right{
+    position: absolute;
+    top: 75%;
+    right: 10%;
+}
+
+
+.food-container{
+    background-image: url("../img/food-bg.png");
+    background-size: cover;
+}
+
+.food-container h1{
+    color: #681111;
+    margin-top: 0;
+    font-size: 3.5rem;
+    padding-top: 4%;
+}
+
+.food-container h2{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.food-list{
+
+}
+
+.food-row{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    
+}
+
+.food-img{
+    width: 90%;
+    height: 90%;
+    border-top-right-radius: 12%;
+    border-top: 0.2rem solid black;
+    border-right: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+}
+
+.food-details-col{
+    display: grid;
+    grid-template-rows: 0.7fr 0.5fr 1fr 1fr;
+}
+
+.text-ctn{
+    width: 80%;
+}
+
+.food-details p{
+    
+}
+
+.diet-list{
+    display: flex;
+	flex-direction: row;
+    gap: 2%;
+}
+
+.diet-col{
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+    width: 8%;
+    
+}
+
+.diet-ctn{
+    /* width: 50% ; */
+    text-align: center;
+}
+
+.diet-img{
+    width: 100%;
+    height: 100%;
+}
+
+.find-dish{
+    display: flex;
+	flex-direction: row;
+    gap: 2%;
+}
+
+.food-vendor-logo{
+    width: 12%;
+    height: 12% ;
+}
+.insta-black{
+    width: 10%;
+    height: 10%;
+}
+
+.end-food-list{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+
+.explore-bt{
+    /* background-color: rgba(168, 109, 63, 0.7); */
+    background-color: #713C3C;
+    border: none;
+    padding: 2%;
+    color: white;
+    border-radius: 2rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.food-link-container{
+    margin-top: 0;
+}
+
+.food-ft{
+    background-color: #713C3C;
+}
+
+@media screen and (max-width: 800px) {
+    .intro h1 {
+        font-size: 2rem;
+    }
+    .intro p{
+        font-size: 0.6rem;
+    }
+
+    .food-row {
+        display: grid;
+        grid-template-rows: 0.2fr 1fr;
+        grid-template-columns: none;  /* reset to default */
+    }
+
+    .food-img{
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 0%;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    .food-container h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .food-name{
+        text-align: center;
+    }
+    
+    .diet-list{
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+    }
+    .food-desc{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text-ctn{
+        width: 70%;
+    }
+    .find-dish{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2%;
+    }
+    .find-dish-text{
+        display: none;
+    }
+    .food-details-col{
+        display: grid;
+        grid-template-rows: 0.6fr 0.2fr 1fr 0.6fr;
+    }
+
+    .explore-bt{
+        /* background-color: rgba(168, 109, 63, 0.7); */
+        background-color: #713C3C;
+        border: none;
+        padding: 2%;
+        color: white;
+        border-radius: 2rem;
+        font-family: inherit;
+        font-size: 1rem;
+    }
+   
 }
