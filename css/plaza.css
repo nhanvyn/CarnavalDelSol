@@ -10,6 +10,7 @@ p{
     width: 100%;
     background-image: url("../img/paper-bg.svg");
     background-size: cover;
+    font-family: 'recoletaschool_semiboldSBd', sans-serif;
 }
 
 /* .paper-bg{
@@ -186,9 +187,8 @@ p{
     background-color: #E04592;
     border-radius: 2rem;
     border: none;
-    font-family: inherit;
     color: white;
-    
+    font-family: 'recoletaschoolregular', sans-serif;
     
  
 }

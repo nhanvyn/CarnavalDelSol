@@ -31,7 +31,7 @@
 .nav .logo{
     font-size: 2rem;
     color: white;
-    /* font-family: 'megastaschoolregular', sans-serif; */
+    font-family: 'megastaschoolregular', sans-serif;
     margin-top: 8%;
     
 }
@@ -58,7 +58,7 @@
     align-items: center;
     align-content: center;
     column-gap: 0.5rem;
-    /* font-family: 'recoletaschool_mediummedium', sans-serif; */
+    font-family: 'recoletaschool_mediummedium', sans-serif;
 }
 
 .timer-i{
@@ -91,7 +91,7 @@
 
 
 .ticket-button{
-    /* font-family: 'recoletaschool_mediummedium', sans-serif; */
+    font-family: 'recoletaschool_mediummedium', sans-serif;
 }
 
 /* CSS media query */
