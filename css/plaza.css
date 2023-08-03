@@ -1,65 +1,103 @@
 
 .food-plaza {
-    position: relative; /* Set to relative so the absolute positioning of .plaza-content is relative to this */
+    position: relative;
     width: 100%;
+    background-image: url("../img/paper-bg.svg");
+    background-size: cover;
 }
 
-.paper-bg{
+/* .paper-bg{
     position: relative; 
     display: block;
     left: 0;
     width: 100%; 
     height: 100%; 
-}
+} */
 
 
 .plaza-content {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
     width: 100%; 
-    height: 100%; 
     display: flex; 
     flex-direction: column; 
     /* justify-content: center;  */
     align-items: center; 
-    gap: 8%;
+    gap: 5em;
+}
+
+.burrito-flex-ctn{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.cooking-flex-ctn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
 }
 
 .burrito-img{
-    position: absolute;
-    left: -50%;
-    top: 5%;
-    width: 100%;
-    height: 90%;
+    width: 200%;
+    margin-left: -75%;
+    margin-top: 9%;
+   
+
 }
 
 .cooking-img{
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    width: 100%;
-    height: 90%;
+    width: 250%;
+    margin-right: -100%;
 }
 
+.chili-ctn{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
 
 .chili-img{
-    position: absolute;
-    left: 83%;
-    top: 55%;
-    width: 30%;
-    height: 30%;
+    width: 200%;
+    margin-left: 60%;
+
 }
 
+.plaza-flex-ctn{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 12%;
+}
+
+.culinary-flex-ctn{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+	flex-direction: column;
+
+}
+.culinary-flex-ctn p{
+    margin-left: 18%;
+}
 
 
 .cloth {
     position: relative;
     width: 65%;
     height: 34%;
- 
     background-image: url("../img/plaza-bg.svg");
     border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.7fr;
+    gap: 7%;
+
     
 }
 .cloth::before,
@@ -85,61 +123,54 @@
     margin-left: 10%;
 }
 .cloth1 p{
-    position: absolute;
     color: #713B3B;
-    width: 40%;
-    left: 40%;
-    top: 35%;
     font-size: 1em;
 
 }
 
 .cloth2{
+    grid-template-columns: 4fr 1fr;
+    gap: 7%;
     margin-right: 10%;
+    
 }
 .cloth2 p{
-    position: absolute;
     color: #713B3B;
-    width: 40%;
-    left: 40%;
-    top: 35%;
     font-size: 1em;
 
 }
 .sewing-bt{
     
     background-color: #772484;
-    position: absolute;
-    
-    border-radius: 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    /* padding: 2%; */
+    font-family: inherit;
     display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center;
     color: white;
 }
 
 .bt-small{
-    width: 40%;
-    height: 15%;
-    left: 39%;
-    top: 15%;
+    
     font-size: 2em;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 .bt-large{
-    width: 60%;
-    height: 15%;
-    left: 10%;
-    top: 15%;
     font-size: 1.5em;
+    margin-left: 9%;
+    width: 90%;
+    padding: 2%;
 }
 
 .cloth2 p{
-    position: absolute;
     color: #713B3B;
     width: 60%;
-    left: 12%;
+    left: 15%;
     top: 35%;
     font-size: 1em;
 
@@ -147,45 +178,45 @@
 
 .nav-bt{
     background-color: #E04592;
-    position: absolute;
     border-radius: 2rem;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
+    border: none;
+    font-family: inherit;
     color: white;
+
+ 
 }
+
+.all-vendor-bt{
+    margin-bottom: 20%;
+}
+
+.learn-more-bt{
+}
+
+
 .to-vendors{
-    width: 25%;
-    height: 10%;
-    left: 45%;
-    top: 75%;
     font-size: 1.2em;
+    padding: 3%;
 }
 
 .to-learn-more{
-    width: 25%;
-    height: 10%;
-    left: 29%;
-    top: 75%;
+    margin-left: 17%;
     font-size: 1.2em;
+    padding: 2%;
 }
 .main-get-ticket{
     background-color: #713B3B;
-    border-radius: 1.75rem;
-    display: flex;
-	flex-direction: row; 
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
+    border-radius: 1.5rem;
     color: white;
     width: 25%;
-    height: 7%;
+    height: 10%;
     position: relative;
     font-size: 2em;
-    padding: 0 4%;
+    padding: 1.5%;
+    margin-bottom: 3%;
     cursor: pointer;
+    border: none;
+    font-family: inherit;
 }
 
 .main-get-ticket::before, 
@@ -201,12 +232,12 @@
 }
 
 .main-get-ticket::before {
-    left: 12%;
+    left: 4%;
     background-image: url('../img/left-fire.svg');
 }
 
 .main-get-ticket::after {
-    right: 12%;
+    right: 4%;
     background-image: url('../img/right-fire.svg');
 }
 
@@ -221,17 +252,20 @@
 
 
 
-@media screen and (max-width: 932px) {
+@media screen and (max-width: 800px) {
    
 .bt-small{
-    font-size: 80%;
+    font-size: 100%;
+}
+.bt-large{
+    font-size: 100%;
 }
 
 .cloth1 p{
-    font-size: 30%;
+    font-size: 80%;
 }
 .to-vendors{
-    font-size: 5%;
+    font-size: 80%;
 }
 
 .bt-large{
@@ -239,10 +273,10 @@
 }
 
 .cloth2 p{
-    font-size: 10%;
+    font-size: 80%;
 }
 .to-learn-more{
-    font-size: 5%;
+    font-size:80%;
 }
 
 

@@ -1,6 +1,9 @@
 .truck-page-container{
+    position: relative;
     background: url('../img/truck-bg.svg'); 
     background-size: cover;
+    width: 100%;
+
 }
   
 .truck-section {
