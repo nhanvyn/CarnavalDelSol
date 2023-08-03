@@ -60,10 +60,11 @@
 
 
 body {
-    background-color: #007956;
+    /* background-color: #007956; */
     
-    /* background-image: url('../img/line-art.png') ; */
-    /* background-size: cover; */
+    background-image: url('../img/line-art.png') ;
+    background-repeat: repeat;
+    background-size: contain;
 }
   
 .main-container {

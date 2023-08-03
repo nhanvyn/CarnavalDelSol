@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnaval De Sol</title>
+    <link href="css/ribbon.css" rel="stylesheet">       <!-- style for navigation bar -->
+    <link href="css/drip.css" rel="stylesheet">         <!-- style for drip background -->
+    <link href="css/global-style.css" rel="stylesheet"> <!-- style that we use for everything -->
+    <link href="css/plaza.css" rel="stylesheet"> 
+    <link href="css/footer.css" rel="stylesheet"> 
+
+      <!-- SEANS EDITS Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+      <!-- END -->
+
+    <script>
+        window.onload = function() {
+            function checkScreenSize() {
+                const imgDrip = document.querySelector('.drip-img');
+                const imgSun = document.querySelector('.sun');
+                const imgFestname = document.querySelector('.festname-img');
+                if(window.innerWidth <= 850) {
+                    imgDrip.src = "img/citation.png";
+                    imgSun.src = "img/sun1-mobile.svg"
+                    imgFestname.src="img/festname.svg"
+                } else {
+                    imgDrip.src = "img/citation.png";
+                    imgSun.src = "img/new-sun.svg"
+                    imgFestname.src= "img/festname.svg"
+                }
+            }
+
+            checkScreenSize();
+            window.addEventListener('resize', checkScreenSize);
+        }
+    </script>
+</head> 
+<body>
+    <div class="main-container">
+        <!-- Here is the navigation bar -->
+        <div class="nav">
+            <div class="nav-content"> 
+                <h1 class="logo">Carnaval De Sol</h1>
+    
+                <section class="timer" id="timer">
+                   <div class="timer-i tday">00</div>
+                   <div class="timer-i thour">00</div>
+                   <div class="timer-i tmin">00</div>
+                   <div class="timer-i tsec">00</div>
+                </section>
+                <div>
+                    <button class="ticket-button" onclick="window.open('https://www.carnavaldelsol.ca/food-plaza/', '_blank')">Get Tickets! ▶</button>
+                </div>
+            </div>
+        </div>
+
+
+       
+        <div class="sun-section">
+            <img src="img/citation.png" alt="Drip" class="drip-img">
+        
+           
+        </div>
+       
+       
+        
+        <div class="end-drip">
+            <img src="img/end-drip.svg" class="end-drip-img" alt="image">
+        </div>
+
+        
+        <footer>
+            <div class="link-container">
+                <img src="img/ft-logo.svg" class="ft-logo" alt="image">
+                <div class="link-section">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://www.figma.com/file/3dKgi1Fms1PH698iOCfyIC/Untitled?type=design&node-id=0%3A1&mode=design&t=l2qZFytlX0wztghu-1">Mockup</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Citation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-section">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://www.figma.com/file/3dKgi1Fms1PH698iOCfyIC/Untitled?type=design&node-id=0%3A1&mode=design&t=l2qZFytlX0wztghu-1">Mockup</a>
+                        </li>
+                        <li>
+                            <a href="/index.html">Citation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <img src="img/insta.svg" class="insta" alt="image">
+                    <img src="img/fb.svg" class="fb" alt="image">
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Latincouver.ca. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        </div>
+</body>
+</html>
+
+
+
+
