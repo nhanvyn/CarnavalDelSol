@@ -1,6 +1,9 @@
 
 body {
     background-color: #007956;
+    
+    /* background-image: url('../img/line-art.png') ; */
+    /* background-size: cover; */
 }
   
 .main-container {
