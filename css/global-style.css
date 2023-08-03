@@ -1,3 +1,63 @@
+/*SEANS EDITS*/
+@font-face {
+    font-family: 'recoletaschool_blackblack';
+    src: url('recoletaschool-black-webfont.woff2') format('woff2'),
+         url('recoletaschool-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'recoletaschool_boldbold';
+    src: url('recoletaschool-bold-webfont.woff2') format('woff2'),
+         url('recoletaschool-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'recoletaschool_mediummedium';
+    src: url('recoletaschool-medium-webfont.woff2') format('woff2'),
+         url('recoletaschool-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'recoletaschoolregular';
+    src: url('recoletaschool-regular-webfont.woff2') format('woff2'),
+         url('recoletaschool-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'recoletaschool_semiboldSBd';
+    src: url('recoletaschool-semibold-webfont.woff2') format('woff2'),
+         url('recoletaschool-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'megastaschoolregular';
+    src: url('megastaschool-webfont.woff2') format('woff2'),
+         url('megastaschool-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* *{
+    padding-top: 0;
+    font-weight: 500;
+}
+ */
+
 
 body {
     background-color: #007956;

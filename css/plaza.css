@@ -1,4 +1,10 @@
 
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
 .food-plaza {
     position: relative;
     width: 100%;
@@ -182,7 +188,8 @@
     border: none;
     font-family: inherit;
     color: white;
-
+    
+    
  
 }
 
@@ -197,6 +204,7 @@
 .to-vendors{
     font-size: 1.2em;
     padding: 3%;
+    margin-bottom: 25%;
 }
 
 .to-learn-more{
@@ -269,7 +277,7 @@
 }
 
 .bt-large{
-    font-size: 50%;
+    font-size: 80%;
 }
 
 .cloth2 p{
@@ -281,6 +289,14 @@
 
 
 .main-get-ticket{
+    background-color: #713B3B;
+    border-radius: 1.5rem;
+    color: white;
+    width: 30%;
+    height: 15%;
+    position: relative;
+    font-size: 2em;
+    padding: 1.5%;
     font-size: 75%;
 }
 

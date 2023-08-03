@@ -10,6 +10,12 @@
     <link href="css/plaza.css" rel="stylesheet"> 
     <link href="css/footer.css" rel="stylesheet"> 
 
+      <!-- SEANS EDITS Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+      <!-- END -->
+
     <script>
         window.onload = function() {
             function checkScreenSize() {
@@ -35,7 +41,7 @@
 <body>
     <div class="main-container">
         <!-- Here is the navigation bar -->
-        <ul class="nav">
+        <div class="nav">
             <div class="nav-content"> 
                 <h1 class="logo">Carnaval De Sol</h1>
     
@@ -45,38 +51,40 @@
                    <div class="timer-i tmin">00</div>
                    <div class="timer-i tsec">00</div>
                 </section>
-                <li>
+                <div>
                     <button class="ticket-button">Get Ticket! ▶</button>
-                </li>
+                </div>
             </div>
-        </ul>
+        </div>
 
 
         <div class="festname-section">
-            <img src="img/festname.svg" class="festname-img">
+            <img src="img/festname.svg" class="festname-img" alt="festname">
         </div>
         <div class="sun-section">
             <img src="img/drip5-desktop.svg" alt="Drip" class="drip-img">
             <div class="wheel">
                 <img src="img/new-sun.svg" alt="Sun" class="sun">
                 <a href="columbia.html">
-                    <img src="flags/Brazil.svg" class="flag1">
+                    <img src="flags/Brazil.svg" class="flag1" alt="image">
                 </a>
                 
-                <img src="flags/Venezuela.svg" class="flag2">
-                <img src="flags/Jamaica.svg" class="flag3">
-                <img src="flags/Ecuador.svg" class="flag4">
-                <img src="flags/Peru.svg" class="flag5">
-                <img src="flags/Salvador.svg" class="flag6">
-                <img src="flags/Chile.svg" class="flag7">
-                <img src="flags/Mexico.svg" class="flag8">
-                <img src="flags/Colombia.svg" class="flag9">
-                <img src="flags/Spain.svg" class="flag10">
+                <img src="flags/Venezuela.svg" class="flag2" alt="image">
+                <img src="flags/Jamaica.svg" class="flag3" alt="image">
+                <img src="flags/Ecuador.svg" class="flag4" alt="image">
+                <img src="flags/Peru.svg" class="flag5" alt="image">
+                <img src="flags/Salvador.svg" class="flag6" alt="image">
+                <img src="flags/Chile.svg" class="flag7" alt="image">
+                <img src="flags/Mexico.svg" class="flag8" alt="image">
+                <a href="columbia.html">
+                    <img src="flags/Colombia.svg" class="flag9" alt="image">
+                </a>
+                <img src="flags/Spain.svg" class="flag10" alt="image">
             </div>
            
         </div>
         <div class="dont-miss-out-section">
-            <img src="img/dont_miss_out.svg" class="dont-miss-out-img">
+            <img src="img/dont_miss_out.svg" class="dont-miss-out-img" alt="image">
         </div>
 
         <div class="food-plaza">
@@ -84,23 +92,21 @@
                <div class="cloth cloth1">
                     
                     <div class="burrito-flex-ctn">
-                        <img src="./img/burrito.png" class="burrito-img">
+                        <img src="./img/burrito.png" class="burrito-img" alt="image">
                     </div>
                     
                     <div class="plaza-flex-ctn">
                         <button class="sewing-bt bt-small">FOOD PLAZA</button>
-                        <p>Colombian food is a unique blend of indigenous and European traditions with a strong Afro-Caribbean influence. The two largest indigenous groups prior to European conquest were the Tairona</p>
-                        <div class="all-vendor-bt">
-                            <a href="./vendors.html">
-                                <button class="nav-bt to-vendors">View All Vendors</button>
-                            </a>
-                        </div>
+                        <p>Transport yourself into a world of Latin American flavours by exploring  the diverse culture and cuisines of our Food Vendors. Not sure where to start? Click to reveal our go-to guide.</p>
+                        <button class="nav-bt to-vendors" onclick="window.location.href='./vendors.html'">
+                            View All Vendors ▶
+                        </button>
                         
                     </div>
                     
 
                     <div class="chili-ctn">
-                        <img src="img/chili.png" class="chili-img">
+                        <img src="img/chili.png" class="chili-img" alt="image">
                     </div>
                 </div>
            
@@ -111,60 +117,34 @@
                     
                     <div class="culinary-flex-ctn">
                         <button class="sewing-bt bt-large">CULINARY EXPERIENCE PLAZA</button>
-                        <p>Colombian food is a unique blend of indigenous and European traditions with a strong Afro-Caribbean influence. The two largest indigenous groups prior to European conquest were the Tairona</p>
+                        <p>Ready to learn from the best? Prepare your favourite Latin American dishes with our guest chefs, where they’ll tell you all the secrets of their delicious flavours. Take home a new skill and get ready to impress all your friends.</p>
                         <div class="learn-more-bt">
-                            <a href="https://www.carnavaldelsol.ca/about-us/">
-                                <button class="nav-bt to-learn-more">Learn more</button>
-                            </a>
+                            <button class="nav-bt to-learn-more" onclick="window.open('https://www.carnavaldelsol.ca/about-us/', '_blank')">
+                                Learn more ▶
+                            </button>
                         </div>
                         
                     </div>
                     <div class="burrito-flex-ctn">
-                        <img src="./img/burrito.png" class="cooking-img">
+                        <img src="./img/cook.png" class="cooking-img" alt="image">
                     </div>
                     
                 </div>
-            <button class="main-get-ticket">
-                Get Ticket!
-            </button>
+                <button class="main-get-ticket" onclick="window.open('https://www.carnavaldelsol.ca/food-plaza/', '_blank')">
+                    Get Ticket!
+                </button>
             </div>
            
         </div>
-
-        <!-- <div class="food-plaza">
-            <img src="img/paper-bg.svg" class="paper-bg">
-            <div class="plaza-content">
-               <div class="cloth cloth1">
-                    <img src="img/burrito.svg" class="burrito-img">
-                    <img src="img/chili.svg" class="chili-img">
-                    <div class="sewing-bt bt-small">FOOD PLAZA</div>
-                    <p>Colombian food is a unique blend of indigenous and European traditions with a strong Afro-Caribbean influence. The two largest indigenous groups prior to European conquest were the Tairona</p>
-                    <a href="./vendors.html">
-                        <div class="nav-bt to-vendors">View All Vendors</div>
-                    </a>
-                </div>
-            <div class="cloth cloth2">
-                <img src="img/burrito.svg" class="cooking-img">
-                <div class="sewing-bt bt-large">CULINARY EXPERIENCE PLAZA</div>
-                <p>Colombian food is a unique blend of indigenous and European traditions with a strong Afro-Caribbean influence. The two largest indigenous groups prior to European conquest were the Tairona, who lived along the Caribbean coast, and the Muisca, </p>
-                <div class="nav-bt to-learn-more">Learn more</div>  
-            </div>
-            
-            <div class="main-get-ticket">
-                Get Ticket!
-            </div>
-            </div>
-           
-        </div> -->
         
         <div class="end-drip">
-            <img src="img/end-drip.svg" class="end-drip-img">
+            <img src="img/end-drip.svg" class="end-drip-img" alt="image">
         </div>
 
         
         <footer>
             <div class="link-container">
-                <img src="img/ft-logo.svg" class="ft-logo">
+                <img src="img/ft-logo.svg" class="ft-logo" alt="image">
                 <div class="link-section">
                     <h3>Useful link</h3>
                     <ul>
@@ -195,8 +175,8 @@
                 </div>
                 <div class="social-media">
                     <h3>Follow Us</h3>
-                    <img src="img/insta.svg" class="insta">
-                    <img src="img/fb.svg" class="fb">
+                    <img src="img/insta.svg" class="insta" alt="image">
+                    <img src="img/fb.svg" class="fb" alt="image">
                 </div>
                 
             </div>
@@ -206,7 +186,6 @@
         </footer>
         
         </div>
-    </div>
 </body>
 </html>
 
