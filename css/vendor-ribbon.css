@@ -42,7 +42,7 @@
     font-size: 1rem;
     background-color: #E04592;
     border-radius: 2rem;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     color: white;
     border-color: #E04592;

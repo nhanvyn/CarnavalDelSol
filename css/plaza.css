@@ -72,15 +72,16 @@ p{
 }
 
 .chili-img{
-    width: 200%;
+    width: 150%;
     margin-left: 60%;
+    margin-top: 100%;
 
 }
 
 .plaza-flex-ctn{
-    margin-top: 15%;
+    margin-top: 25%;
     margin-bottom: 15%;
-    margin-left: 12%;
+    margin-left: 20%;
 }
 
 .culinary-flex-ctn{
@@ -150,7 +151,7 @@ p{
     
     background-color: #772484;
     border: none;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     /* padding: 2%; */
     font-family: inherit;
     display: flex;
@@ -261,7 +262,10 @@ p{
 
 
 @media screen and (max-width: 800px) {
-   
+
+.nav-bt{
+    border-radius: 0.7rem;
+} 
 .bt-small{
     font-size: 100%;
 }
@@ -274,6 +278,8 @@ p{
 }
 .to-vendors{
     font-size: 80%;
+    margin-bottom: 45%;
+    padding: 5%;
 }
 
 .bt-large{
@@ -285,6 +291,8 @@ p{
 }
 .to-learn-more{
     font-size:80%;
+    margin-bottom: 15%;
+    padding: 4%;
 }
 
 

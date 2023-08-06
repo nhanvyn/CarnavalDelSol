@@ -111,7 +111,7 @@ small {
 }
 
 .filter-container {
-    margin-top: 4%;
+    margin-top: 9%;
     margin-left:29%;
 }
 
@@ -119,15 +119,16 @@ small {
     font-size: 1em; 
     border-radius: 0.5em; 
     border: none; 
-    background-color: #E04593;
+    background-color: #F2F2F2;
     color: #333; 
     font-family: 'recoletaschoolregular', serif;
-    color: #fff;
 }
 
 #countryFilter{
     width: 70%;
-
+}
+#sortFilter{
+    width: 20%;
 }
 @media (max-width: 800px) {
     .vendor-container{
@@ -153,6 +154,7 @@ small {
 
     .details {
         grid-area: details;
+        margin-right: 15%;
     }
 
     .img-wrapper {
@@ -193,6 +195,7 @@ small {
         margin-top: 10%;
     }
     .title-and-icons h1{
+        font-size: 1.7rem;
         margin: 0;
     }
     .subtitle{
@@ -208,12 +211,12 @@ small {
     }
     
     .filter-container {
-        margin-top: 15%;
+        margin-top: 20%;
         margin-left: 0%;
     }
     
     #countryFilter, #sortFilter {
-        font-size: 1em; 
+        font-size: 0.7em; 
         border-radius: 0.5em; 
         border: none; 
         background-color: #F2F2F2;
