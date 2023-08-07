@@ -17,29 +17,19 @@
 
     <script>
   
-        window.onload = function() {
-            function checkScreenSize() {
-                var vid = document.getElementById("video1");
-               
-                if(window.innerWidth <= 850) {
-                   vid.play()
-                   vid.style.opacity = "1";
-                } else {
-                    vid.onmouseover = function() {
-                        vid.play();
-                        vid.style.opacity = "1";
-                    }
-                
-                    vid.onmouseout = function() {
-                        vid.pause();
-                        vid.style.opacity = "0.5";
-                    }
-                }
+        window.onload = function(){
+            var vid = document.getElementById("video1");
+        
+            vid.onmouseover = function() {
+                this.play();
+                this.style.opacity = "1";
             }
-
-            checkScreenSize();
-            window.addEventListener('resize', checkScreenSize);
-        }
+        
+            vid.onmouseout = function() {
+                this.pause();
+                this.style.opacity = "0.5";
+            }
+        };
 
 
     </script>
